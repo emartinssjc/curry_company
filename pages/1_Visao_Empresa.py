@@ -10,7 +10,7 @@ import plotly.express as px
 import folium
 from streamlit_folium import folium_static
 st.set_page_config(page_title = 'Visão Empresa', page_icon='XD', layout='wide')
-df = pd.read_csv('train.csv')
+df = pd.read_csv('../dataset/train.csv')
 
 
 df1 = df.copy()
